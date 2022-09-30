@@ -45,12 +45,15 @@
   <div class="container px-4 py-5 px-md-5 text-center text-lg-start my-5">
     <div class="row gx-lg-5 align-items-center mb-5">
       <div class="col-lg-6 mb-5 mb-lg-0" style="z-index: 10">
-        <h1 class="my-5 display-5 fw-bold ls-tight" style="color:#20c997;" >
-          TOKO KONSER <br />
-          <span style="color: hsl(218, 81%, 75%)"></span>
+        <h1 class="my-5 display-5 fw-bold ls-tight" style="color: hsl(218, 81%, 95%)">
+          The best offer <br />
+          <span style="color: hsl(218, 81%, 75%)">for your business</span>
         </h1>
         <p class="mb-4 opacity-70" style="color: hsl(218, 81%, 85%)">
-          Toko konser merupakan website untuk mempermudahkan pembelian dan penjualan serta menjamin keabsahan tiket konser
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+          Temporibus, expedita iusto veniam atque, magni tempora mollitia
+          dolorum consequatur nulla, neque debitis eos reprehenderit quasi
+          ab ipsum nisi dolorem modi. Quos?
         </p>
       </div>
 
@@ -61,11 +64,26 @@
         <div class="card bg-glass">
           <div class="card-body px-4 py-5 px-md-5">
             <form>
+              <!-- 2 column grid layout with text inputs for the first and last names -->
+              <div class="row">
+                <div class="col-md-6 mb-4">
+                  <div class="form-outline">
+                    <input type="text" id="form3Example1" class="form-control" />
+                    <label class="form-label" for="form3Example1">First name</label>
+                  </div>
+                </div>
+                <div class="col-md-6 mb-4">
+                  <div class="form-outline">
+                    <input type="text" id="form3Example2" class="form-control" />
+                    <label class="form-label" for="form3Example2">Last name</label>
+                  </div>
+                </div>
+              </div>
 
               <!-- Email input -->
               <div class="form-outline mb-4">
                 <input type="email" id="form3Example3" class="form-control" />
-                <label class="form-label" for="form3Example3">ID KASIR</label>
+                <label class="form-label" for="form3Example3">Email address</label>
               </div>
 
               <!-- Password input -->
@@ -74,11 +92,17 @@
                 <label class="form-label" for="form3Example4">Password</label>
               </div>
 
+              <!-- Checkbox -->
+              <div class="form-check d-flex justify-content-center mb-4">
+                <input class="form-check-input me-2" type="checkbox" value="" id="form2Example33" checked />
+                <label class="form-check-label" for="form2Example33">
+                  Subscribe to our newsletter
+                </label>
               </div>
 
               <!-- Submit button -->
               <button type="submit" class="btn btn-primary btn-block mb-4">
-                MASUK
+                Sign up
               </button>
 
               <!-- Register buttons -->

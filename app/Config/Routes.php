@@ -3,7 +3,7 @@
 namespace Config;
 
 // Create a new instance of our RouteCollection class.
-$routes = Services::routes();
+$routes = Services::routes('development');
 
 // Load the system's routing file first, so that the app and ENVIRONMENT
 // can override as needed.
@@ -35,10 +35,21 @@ $routes->set404Override();
 
 // We get a performance increase by specifying the default
 // route since we don't have to scan directories.
-$routes->get('/', 'Home::index');
-$routes->get('pages/dashboard', 'Pages::dashboard');
-$routes->resource('pages');
+$routes->get('/', 'Sessions::index');
+$routes->get('product/dashboard', 'product::dashboard');
+$routes->post('sessions/logout', 'Sessions::logout');
+$routes->resource('sessions');
+$routes->resource('product');
 $routes->resource('items');
+$routes->resource('validasi');
+$routes->resource('search');
+$routes->resource('kart');
+$routes->resource('admin');
+$routes->resource('beli1');
+$routes->resource('beli2');
+$routes->resource('beli3');
+$routes->resource('transaksi');
+$routes->resource('tiket');
 
 /*
  * --------------------------------------------------------------------
