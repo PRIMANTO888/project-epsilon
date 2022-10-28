@@ -50,7 +50,7 @@ $routes->resource('beli2');
 $routes->resource('beli3');
 $routes->resource('transaksi');
 $routes->resource('tiket');
-
+$routes->resource('add');
 /*
  * --------------------------------------------------------------------
  * Additional Routing

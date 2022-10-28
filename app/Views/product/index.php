@@ -162,6 +162,9 @@ h2::after {
 	<div class="row">
 		<div class="col-md-12">
 			<h2>Products</h2>
+<div class="d-grid gap-0">
+  <a href="add" class="btn btn-success"class=col-md-3 type="button">tambah product</a>
+</div>
 			<div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="0">
 			<!-- Carousel indicators -->
 			<ol class="carousel-indicators">
@@ -447,16 +450,4 @@ h2::after {
 		</div>
 		</div>
 	</div>
-</div>
-</body>
-</html>                                		
-<style>
-div.static {
-  position: fixed;
-  bottom: 0;
-  right: 690;
-  width: 150px;
-  border: 0px solid #543535;
-}
-</style>
 </div>
